@@ -5,7 +5,7 @@ function Home() {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/doctors")
+    fetch("https://niroggyan-backend.onrender.com/api/doctors")
       .then((res) => res.json())
       .then((data) => setDoctors(data))
       .catch((err) => console.error("Failed to fetch doctors", err));
