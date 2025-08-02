@@ -1,0 +1,84 @@
+const doctors = [
+  {
+    id: 1,
+    name: "Dr. Aisha Kapoor",
+    specialization: "Cardiologist",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    availability: "Available Today",
+    schedule: "Mon-Fri, 10AM - 4PM"
+  },
+  {
+    id: 2,
+    name: "Dr. Rahul Mehta",
+    specialization: "Dermatologist",
+    image: "https://randomuser.me/api/portraits/men/46.jpg",
+    availability: "Fully Booked",
+    schedule: "Tue-Thu, 2PM - 6PM"
+  },
+  {
+    id: 3,
+    name: "Dr. Priya Sharma",
+    specialization: "Pediatrician",
+    image: "https://randomuser.me/api/portraits/women/47.jpg",
+    availability: "Available Today",
+    schedule: "Mon-Fri, 9AM - 3PM"
+  },
+  {
+    id: 4,
+    name: "Dr. Anil Kumar",
+    specialization: "Neurologist",
+    image: "https://randomuser.me/api/portraits/men/48.jpg",
+    availability: "On Leave",
+    schedule: "Mon-Wed, 11AM - 5PM"
+  },
+  {
+    id: 5,
+    name: "Dr. Neha Verma",
+    specialization: "Orthopedic Surgeon",
+    image: "https://randomuser.me/api/portraits/women/49.jpg",
+    availability: "Available Today",
+    schedule: "Tue-Fri, 10AM - 2PM"
+  },
+  {
+    id: 6,
+    name: "Dr. Rakesh Singh",
+    specialization: "General Physician",
+    image: "https://randomuser.me/api/portraits/men/50.jpg",
+    availability: "Fully Booked",
+    schedule: "Mon-Sat, 8AM - 12PM"
+  },
+  {
+    id: 7,
+    name: "Dr. Sunita Patel",
+    specialization: "Gynecologist",
+    image: "https://randomuser.me/api/portraits/women/51.jpg",
+    availability: "Available Today",
+    schedule: "Wed-Sat, 1PM - 6PM"
+  },
+  {
+    id: 8,
+    name: "Dr. Vikram Desai",
+    specialization: "ENT Specialist",
+    image: "https://randomuser.me/api/portraits/men/52.jpg",
+    availability: "Available Today",
+    schedule: "Mon-Fri, 10AM - 4PM"
+  },
+  {
+    id: 9,
+    name: "Dr. Meera Joshi",
+    specialization: "Psychiatrist",
+    image: "https://randomuser.me/api/portraits/women/53.jpg",
+    availability: "On Leave",
+    schedule: "Tue-Thu, 2PM - 6PM"
+  },
+  {
+    id: 10,
+    name: "Dr. Sanjay Rao",
+    specialization: "Dentist",
+    image: "https://randomuser.me/api/portraits/men/54.jpg",
+    availability: "Available Today",
+    schedule: "Mon-Fri, 9AM - 1PM"
+  }
+];
+
+export default doctors;
